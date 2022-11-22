@@ -1,0 +1,98 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0%;
+
+}
+
+.top {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+.Peragraph {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.half-width {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.half-width img {
+    width: 100%;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.carear {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.name {
+    color: rgb(186, 84, 58);
+    font-size: 80px;
+}
+
+.relation-area {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 10px black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#incident {
+    border-left: 5px solid;
+    border-image: linear-gradient(#f6b73c, #fffb05) 30;
+    border-image-slice: 1;
+}
+
+#newspaper {
+    border-left: 5px solid;
+    border-image: linear-gradient(#6060a6, #c96a6a)30;
+    border-image-slice: 1;
+
+}
+
+.deep {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.687);
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(214, 222, 222);
+    background-image: linear-gradient(tomato, red);
+    font-weight: 400;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
